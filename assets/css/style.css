@@ -70,9 +70,11 @@ body {
 }
 
 @media (max-width:768px) {
-.matrix-image {
-    text-align: center;
+
+  .matrix-image {
+     text-align: center;
  }
+ 
 }
 .centered-main_page__element {
     display: block;
@@ -99,9 +101,6 @@ li {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-input, button{
-    outline: none;
 }
 button {
     background: none;
@@ -180,15 +179,12 @@ li > * {
 }
 
 /* Edit Task */
+.edit-mode label,
 ul li input[type = "text"] {
     display: none
 }
 
-ul li.edit-mode input[type = "text"] {
+.edit-mode input[type = "text"] {
     display: inline-block;
     width: 224px;
-}
-
-ul li.edit-mode label {
-    display: none;
 }
