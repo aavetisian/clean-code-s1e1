@@ -181,7 +181,7 @@ li > * {
 /* Edit Task */
 .edit-mode label,
 ul li input[type = "text"] {
-    display: none
+    display: none;
 }
 
 .edit-mode input[type = "text"] {
